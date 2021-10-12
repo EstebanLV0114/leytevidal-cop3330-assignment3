@@ -1,0 +1,15 @@
+Pseudocode for ex41 (nameSorter)
+
+The program will select a the input file given from the pathname
+It will then read the file (using a scanner) into the program and add each line into a list of strings
+After that it will get the size of the names for the output file
+Then create an array for both first and last names
+When they are in the arrays it will then alphabetically sort the names based off last name then first name
+To do this it will compare the first and last name
+    if the last name of one is less than the last name of the second flip the order
+    if the last names are equal
+        compare the first names and if needed flip the names around
+After that it will return a list of the names in order
+It will then create the output string with it being alphabetical
+Then create a file for output, write the output into the file
+Finally, close file

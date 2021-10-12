@@ -1,0 +1,10 @@
+Pseudocode for ex45 (wordFind)
+
+Program will prompt the user to input the name of the output file for the changes.
+It will then take the input from "ex45_input.txt" and read it
+Then it will create a while loop that runs until the word utilize no longer exists
+In this while loop it has 3 branches
+    - Grab initial text where the word utilize is still in use.
+    - Replace Utilize with Use.
+    - Save to output when the word utilize is not included.
+It will then create a new file with the name the user input before.

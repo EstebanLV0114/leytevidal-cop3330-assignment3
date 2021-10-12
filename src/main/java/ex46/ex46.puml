@@ -1,0 +1,8 @@
+@startuml
+class wordFreq {
+Program will count the frequency of words given from input file
+    + main(String[] args)
+    + count(ArrayList<String> list_input)
+
+}
+@enduml

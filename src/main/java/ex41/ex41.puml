@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class nameSorter
+{
+Take imported file with names and create a new file with names sorted alphabetically
++ main()
++ List<String> alpha(String[] fname, String[] lname)
++ String[] flip(String[] names, int first, int second)
++ List<String> insert(String[] fname, String[] lname)
++ String[] spacer(List<String> names,int x)
+}
+@enduml

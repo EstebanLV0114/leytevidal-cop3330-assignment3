@@ -1,0 +1,8 @@
+@startuml
+class wordFind{
+Program will look for the word utilize and replace it with use in any instance
+It will then output a new file with the changes.
++ main()
+
+}
+@enduml

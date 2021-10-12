@@ -1,0 +1,8 @@
+@startuml
+class parsingData
+{
+Take an input file with names and salary then output data to a table
++ main()
++ String[] spacer(List<String> names,int x)
+}
+@enduml

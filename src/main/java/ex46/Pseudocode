@@ -1,0 +1,9 @@
+Pseudocode for ex46 (wordFreq)
+
+The program has two methods, main and Map<String, Integer> count.
+The program starts by going to main where the input directory is found with the string containing the path
+to the file. Then we use both the bufferedReader tool and FileReader tool to scan for words from the
+input file that we store in an array list. Then we call the count method and pass the input list.
+The count function that creates a map with the key as the word itself and the value
+is the frequency of that word, then returns the map to main where we use Collections.sort() to sort both
+the words and their frequency. It then uses for loops to print the word and its frequency in order from high to low.

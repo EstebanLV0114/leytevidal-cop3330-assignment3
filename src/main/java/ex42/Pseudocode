@@ -1,0 +1,6 @@
+Pseudocode for ex42 (parsingData)
+
+The program will create a list with the contents of the imported file
+It will then separate each part of the list into the Last Name, First Name, and Salary.
+Once the table has been created and everything has been organized it will then output them to a table.
+Finally it will print out each section of data from their arrays with one output line.

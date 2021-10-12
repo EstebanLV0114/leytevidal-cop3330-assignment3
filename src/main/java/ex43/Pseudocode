@@ -1,0 +1,7 @@
+Pseudocode for ex43 (webGen)
+
+Program will ask the user to input the name and the author of the site.
+It will then ask the user if they want a JavaScript and/or CSS file folder
+Program will then generate the files for the directory that the user chose.
+Program will always include the index html file but may or may not have the javascript or css folders
+depending on what was chosen from before.

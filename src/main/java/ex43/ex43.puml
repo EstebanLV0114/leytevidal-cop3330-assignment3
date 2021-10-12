@@ -1,0 +1,16 @@
+@startuml
+class webGen
+{
+Take a Title and Author input from user
+Then ask if they want js and css folder included.
+Output data and selection afterwards.
+
++ main()
++ String[] userInput(String prompt)
++ String genSite()
++ directory(String name)
++ html(String content, String fname)
++ String genSite(String name, String auth, boolean js, boolean css)
+
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class prodSearch{
+
+    + main(String[] args)
+    + checkJSON(String element, String newDir)
+
+}
+@enduml

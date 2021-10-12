@@ -1,0 +1,14 @@
+Pseudocode for ex44 (prodSearch)
+
+This program uses an import called "com.google.gson.*" to pull values from the JSON file. The program
+contains two methods, main and (int) checkJSON, the ladder having the parameters set to the product name and
+the directory where the JSON file is. First the "Main" function is called where the directory
+of the input file along with the prompted product name from the user are found.
+The "Main" function uses a while loop that runs until the user enters
+a valid product name present within the input file. When a name is found, the checkJSON method
+uses a Gson and Reader tools, JsonElement and JsonObject to find the product within the JSON file.
+The checkJSON uses a "try catch" approach and throw FileNotFoundException
+to catch exceptions when reading from the JSON file will do 1 of 2 things. It will either print the product
+and its characteristics when found along with returning 1, or it just returns 0 when the product is not found.
+After returning 1 or 0, this value is checked in main method to either continue looping if it is 0,
+otherwise the program ends.
